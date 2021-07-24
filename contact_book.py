@@ -12,7 +12,7 @@ from PyQt5.QtCore import Qt, QSortFilterProxyModel
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.createConnection() # create database connection
+        self.createConnection()  # create database connection
 
         self.setWindowTitle("Contact Book - Tech Emmy")
         self.setMinimumSize(500, 500)
